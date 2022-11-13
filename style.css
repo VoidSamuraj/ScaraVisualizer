@@ -1,0 +1,13 @@
+*{
+  font-size: 20px;
+}
+.insert{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.insert>p{
+  margin-right: 10px;
+}
+canvas{
+  background-color: #bababa;
+}

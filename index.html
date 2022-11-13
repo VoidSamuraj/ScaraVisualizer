@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+    <body style="background-color: gray;margin:10px; display: flex;">
+          <div>
+              <input type="file" name="source" value="source" id="file" >
+              <div style="display:flex"  class="insert">
+                  <p>Arm 1 Length</p>
+                  <input type="number" name="firstArm" value="100" id="first" >
+              </div>
+              <div style="display:flex" class="insert">
+                  <p >Arm 2 Length</p>
+                  <input type="number" name="secondArm" value="100" id="second">
+              </div>
+              <div style="display:flex">
+
+              </div>
+
+              <input type="button" name="ok" value="ok"/> <!--onclick="start()"-->>
+          </div>
+           <center >
+               <div style="display: flex;"height="100%">
+                   <canvas  id="canvas"height="100%" b></canvas>
+
+               </div>
+           </center>
+             <script src="js.js" charset="utf-8"></script>
+  </body>
+</html>
